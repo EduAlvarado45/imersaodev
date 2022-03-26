@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #303030 27.26%, black 100%);
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  background: #cecece;
+  color: #376d37;
+  margin: 64px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
+  padding: 30px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 150px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 20px;
+}
+
+.titulo h1 {
+  font-weight: 900;
+  font-size: 42px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 14px;
+  font-weight: 400;
+  color: #376d37;
+  padding: 8px 16px;
+  background: #cecece;
+  border-radius: 100px;
+  border: 2px solid #376d37;
+}
+
+.projetos {
+  background: #376d37;
+  color: #ffffff;
+  margin-top: 64px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 45px;
+}
+
+.projetos-item a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.dark {
+  background: #376d37;
+}
+
+.dark .container {
+  background: #000000;
+  color: #ffffff;
+}
+
+.dark .projetos {
+  background: #333439;
+}
+
+.dark .tema button {
+  background: #000000;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
